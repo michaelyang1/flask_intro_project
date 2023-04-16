@@ -4,7 +4,7 @@ import database as db
 import uuid
 
 # set up applications
-app = Flask(__name__) 
+app = Flask(__name__, static_folder='static')
 
 
 project_db = db.Database()
